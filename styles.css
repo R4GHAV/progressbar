@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+}
+.progress-bar{
+  height: 27px;
+  width: 300px;
+  background-color: #cfd3ce;
+  border-radius:20px;
+}
+.progress{
+  height: 27px;
+  width:0;
+  border-radius: 20px;
+  background-color: #54e346;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition:1s ease;
+}
